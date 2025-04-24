@@ -8,22 +8,20 @@ This repository contains the Python scripts compiled to address problem 5 from E
 </ul>
 
 ## Abstract:
-The assignment includes 4 exercises:
+In this problem we worked on a set of mixed audio recordings which have been created using instantaneous mixing. The audio file contains two channels. Two Python scripts are included:
 <ol type="I">
-  <li>The objective of this exercise is to implement linear discrete-time communication system model, and show that the linear adaptive linear equalizer is effective in combating distortions induced by the channel.</li>
-  <li>In this exercise, the goal is to demonstrate the capabilities of a single-layer neural network, trained by gradient descent (backpropagation), to model various functions.</li>
-  <li>The objective of this exercise is to implement the nonlinear discrete-time communication channel with the nonlinear equalizer. You will demonstrate that the nonlinear equalizer, implemented as a multiple input single layer neural network, is effective in combating distortions induced by the nonlinear channel.</li>
-  <li>Finally, implement a convolutional nonlinear equalizer using the techniques implemented so far, and evaluate its performance on the nonlinear channel specified by the parameters from the previous exercise.</li>
+  <li>Main script, loading the audio files and calling the ICA function</li>
+  <li>ICA function definition and model's weights update implementation</li>
 </ol>
 
 ## Data
-The employed scripts have been primarily developed by me. You can check how I addressed each one of the exercises by glimpsing into each exercise script. A small PDF report is also available for showcasing and discussing the results.
+The employed scripts have been primarily developed by the course staff. The students were called to individually complete specific lines of code only, in order to apply the formulas discussed in class.
 
 ## Goal
-The report has been the final of 4 mandatory hand-ins required to succeed the course. The objective of the course has been to introduce basic machine learning techniques that can be applied for designing fiber-optic and as well as wireless communication systems. The course provided us students with knowledge of how to: 1) build data driven models of from input/output data. This will include models of amplifiers, transmission channels, transmitter-receivers, 2) design pre- and –post nonlinear equalizers based on multi-layer neural-network. 3) optimal filtering and recover useful information from noisy observations and 4) perform system performance prediction and optimization of communication systems and networks.
+The Exercise belongs to week 8 class, focused on dictionary learning and source separation. Specifically, several dictionary learning-based algorithms have been discussed, while only Independent Component Analysis has been applied. The objective of the exercise has been to understand the derivation behind ICA, and apply ICA as a source separation technique. The course provided us students with knowledge of: 1) Fundamental and widely applied signal processing methods. 2) Matlab or Python as a tool for the development of signal processing algorithms. 3) how to derive and construct a modern signal processing system based on machine learning.
 
 ## Usage
-The suggested means of usage of the provided material is by reading through the PDF report. In aid of the concepts, the Python scripts can be checked to understand how to manually implement adaptive equalizers and single-layer neural networks based on gradient descent.
+The suggested means of usage of the provided material is by reading through the main Python ex8_5.py script. By loading the mixture_instantaneous.wav audio file, two audio files (ica_source_1.wav and ica_source_2.wav) are being returned, demonstrating how ICA model is effective within separation of sources that are statistically independent.
 
 ## Conclusion
 Machine learning is becoming an indispensable tool for communication engineers. However, as the field of machine learning is broad, identifying a set of relevant tools for solving a specific set of problems may be challenging. <br/><br/> Specifically for this assignment, linear and nonlinear adaptive equalizer models have been implemented. Moreover, it has been successfully shown how a signal - distorted by such modeled systems - can be restored by resorting on machine learning algorithms (e.g. gradient descent).
