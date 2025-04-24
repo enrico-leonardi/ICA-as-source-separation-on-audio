@@ -3,7 +3,7 @@ This repository contains the Python scripts compiled to address problem 5 from E
 
 ## Project Contributers
 <ul>
-  <li>Tommy Sonne Alstrøm (course responsible)</li>
+  <li>Tommy Sonne Alstrøm (course responsible) + staff</li>
   <li>Enrico Leonardi (student - 222721)</li>
 </ul>
 
@@ -15,7 +15,7 @@ In this problem we worked on a set of mixed audio recordings which have been cre
 </ol>
 
 ## Data
-The employed scripts have been primarily developed by the course staff. The students were called to individually complete specific lines of code only, in order to apply the formulas discussed in class.
+The employed scripts have been primarily developed by the course staff. The students were called to individually complete a few significant lines of code as a last step, in order to apply the formulas discussed in class.
 
 ## Goal
 The Exercise belongs to week 8 class, focused on dictionary learning and source separation. Specifically, several dictionary learning-based algorithms have been discussed, while only Independent Component Analysis has been applied. The objective of the exercise has been to understand the derivation behind ICA, and apply ICA as a source separation technique. The course provided us students with knowledge of: 1) Fundamental and widely applied signal processing methods. 2) Matlab or Python as a tool for the development of signal processing algorithms. 3) how to derive and construct a modern signal processing system based on machine learning.
